@@ -26,5 +26,6 @@ Python, PyTorch, Kornia, OpenCV, MediaPipe, rasterio (learning), STAC/COG (learn
 - GitHub: [github.com/box1401](https://github.com/box1401)
 - LinkedIn: [linkedin.com/in/kade-chen-rs](https://www.linkedin.com/in/kade-chen-rs/)
 - Email: `abcd140224 [at] gmail.com`
+- CV (PDF): [Kade-Chen-CV.pdf](/assets/cv/Kade-Chen-CV.pdf)
 
 If you're working on SAR processing, geospatial PyTorch tooling, or remote-first engineering culture and want to chat — say hi.

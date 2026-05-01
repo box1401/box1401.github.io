@@ -65,7 +65,7 @@ cdn:
 # Avatar shown on sidebar — Kade's GitHub avatar
 avatar: https://github.com/box1401.png
 
-social_preview_image:
+social_preview_image: /assets/img/og.png
 
 toc: true
 
