@@ -1,0 +1,32 @@
+title: Kade Chen
+subtitle: Remote Sensing · SAR · Computer Vision
+description: >-
+  Notes on synthetic aperture radar, deep-learning object detection, and the
+  open-source PyTorch ecosystem. M.S. Remote Sensing @ NCU CSRSR.
+author:
+  name: Kade Chen
+  email: abcd140224@gmail.com
+github_username: box1401
+linkedin_username: kade-chen-rs
+
+# Build
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Minima settings
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,   user_url: "https://github.com/box1401" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/kade-chen-rs/" }
+
+# Plugins (GitHub Pages whitelist)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
