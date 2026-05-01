@@ -1,31 +1,173 @@
+# The Site Configuration
+
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Asia/Taipei
+
+# jekyll-seo-tag settings
 title: Kade Chen
-subtitle: Remote Sensing · SAR · Computer Vision
+tagline: Remote Sensing · SAR · Computer Vision
 description: >-
   Notes on synthetic aperture radar, deep-learning object detection, and the
-  open-source PyTorch ecosystem. M.S. Remote Sensing @ NCU CSRSR.
-author: Kade Chen
-email: abcd140224@gmail.com
-github_username: box1401
-linkedin_username: kade-chen-rs
+  open-source PyTorch geospatial ecosystem. M.S. Remote Sensing @ NCU CSRSR.
 
-# Build
-theme: minima
-markdown: kramdown
-permalink: /:year/:month/:day/:title/
+url: "https://box1401.github.io"
 
-# Minima settings
-minima:
-  skin: auto
-  social_links:
-    - { platform: github,   user_url: "https://github.com/box1401" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/kade-chen-rs/" }
+github:
+  username: box1401
 
-# Plugins (GitHub Pages whitelist)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+twitter:
+  username:
+
+social:
+  name: Kade Chen
+  email: abcd140224@gmail.com
+  fediverse_handle:
+  links:
+    - https://github.com/box1401
+    - https://www.linkedin.com/in/kade-chen-rs
+
+# Site Verification
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
+
+# Web Analytics
+analytics:
+  google:
+    id:
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
+    id:
+
+pageviews:
+  provider:
+
+# Color scheme: empty = auto (follows system); user can toggle in sidebar
+theme_mode:
+
+cdn:
+
+# Avatar shown on sidebar — Kade's GitHub avatar
+avatar: https://github.com/box1401.png
+
+social_preview_image:
+
+toc: true
+
+comments:
+  provider:
+  disqus:
+    shortname:
+  utterances:
+    repo:
+    issue_term:
+  giscus:
+    repo:
+    repo_id:
+    category:
+    category_id:
+    mapping:
+    strict:
+    input_position:
+    lang:
+    reactions_enabled:
+
+assets:
+  self_host:
+    enabled:
+    env:
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+
+paginate: 10
+
+baseurl: ""
+
+# ------------ DO NOT MODIFY BELOW unless confident ------------------
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
 
 exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
   - README.md
-  - Gemfile
-  - Gemfile.lock
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
