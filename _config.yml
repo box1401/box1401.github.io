@@ -3,9 +3,8 @@ subtitle: Remote Sensing · SAR · Computer Vision
 description: >-
   Notes on synthetic aperture radar, deep-learning object detection, and the
   open-source PyTorch ecosystem. M.S. Remote Sensing @ NCU CSRSR.
-author:
-  name: Kade Chen
-  email: abcd140224@gmail.com
+author: Kade Chen
+email: abcd140224@gmail.com
 github_username: box1401
 linkedin_username: kade-chen-rs
 
