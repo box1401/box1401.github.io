@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Implementing the Lee Filter as a Kornia Transform"
-date: 2026-05-03 21:00:00 +0800
+date: 2026-05-03 18:35:00 +0800
 categories: [SAR, PyTorch]
 tags: [sar, speckle, kornia, torchgeo, pytorch, lee-filter, despeckling]
 math: true
