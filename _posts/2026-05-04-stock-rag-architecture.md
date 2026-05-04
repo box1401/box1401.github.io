@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a Local-LLM RAG Pipeline for Taiwan Stocks"
-date: 2026-05-04 20:30:00 +0800
+date: 2026-05-04 19:00:00 +0800
 categories: [LLM, Data]
 tags: [rag, ollama, qwen2.5, twse, finmind, threading, jina, taiwan-stocks]
 ---
