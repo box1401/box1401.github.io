@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Compass Equity — a multi-agent equity research copilot for Taiwan stocks"
-date: 2026-05-06 19:00:00 +0800
+date: 2026-05-05 18:00:00 +0800
 categories: [LLM, Engineering]
 tags: [agents, rag, langgraph, fastapi, nextjs, gcp, cloudrun, gemini, taiwan-stocks]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shipping a LangGraph agent stack to Cloud Run with keyless GitHub-OIDC and seven failed deploys"
-date: 2026-05-06 20:00:00 +0800
+date: 2026-05-05 20:00:00 +0800
 categories: [DevOps, Engineering]
 tags: [terraform, cloudrun, gcp, github-actions, oidc, wif, langgraph, devops]
 ---
