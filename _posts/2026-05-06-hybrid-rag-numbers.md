@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hybrid RAG with reciprocal-rank fusion and a cross-encoder — what the numbers actually look like"
-date: 2026-05-19 19:00:00 +0800
+date: 2026-05-06 19:30:00 +0800
 categories: [LLM, Engineering]
 tags: [rag, embeddings, bm25, pgvector, reranker, ragas, postgres]
 ---
